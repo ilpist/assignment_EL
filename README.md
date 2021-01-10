@@ -14,6 +14,8 @@ IMAGE_INSTALL_append = " heartbeat"
 IMAGE_INSTALL_append = " kheartbeat"
 KERNEL_MODULE_AUTOLOAD += "kheartbeat"
 
+-change in heartbeat.bb and kheartbeat.bb the COMPATIBLE_MACHINE value with the machine used
+
 -start the bitbake core-image-full-cmdline
 
 -setup the SD card
